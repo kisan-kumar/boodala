@@ -1,9 +1,9 @@
 def fact(q):
-    f = 1
+    fun = 1
     while q != 0:
-        f *= q
+        fun *= q
         q -= 1
-    return f
+    return fun
 
 
 if __name__ == "__main__":
